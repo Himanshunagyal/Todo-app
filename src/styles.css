@@ -1,26 +1,56 @@
+.light-mode {
+  background: var(--background-light);
+  color: var(--text-light);
+  transition: all 0.3s ease-in-out;
+}
+
 .app {
-    text-align: center;
-    font-family: Arial, sans-serif;
+  
+     max-width: 400px;
+     margin: 50px auto;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 10px;
+     box-shadow: 0px 4px 8px(0, 0, 0, 0.2);
+     background: rgb(248, 238, 201);
+
   }
   
+  h1{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
   form {
     margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   input {
     padding: 8px;
-    width: 200px;
+    width: 75%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 14px;
   }
   
-  button {
-    margin-left: 10px;
-    padding: 8px;
-    cursor: pointer;
-  }
+  
+    button {
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background: var(--primary-color);
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+  
   
   ul {
     list-style: none;
     padding: 0;
+    display: flex;
   }
   
   li {
@@ -36,9 +66,18 @@
   }
   
   button {
-    background: red;
+    background: rgb(248, 178, 178);
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
   }
+
+.delete-btn {
+  background: #f5dfdc;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
